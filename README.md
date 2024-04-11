@@ -2,7 +2,7 @@
 
 `sapysol` Raydium AMM V4 direct swap implementation. Based on JavaScript from [Raydium SDK](https://github.com/raydium-io/raydium-sdk), written from scratch.
 
-`sapysol_raydium_amm` fetches information from Solana blockchain and doesn't rely on Raydium public web APIs, that means ig you know pool address you can start trading right away without the need to wait for the Raydium pool cache to be updated.
+`sapysol_raydium_amm` fetches information from Solana blockchain and doesn't rely on Raydium public web APIs (https://api.raydium.io/v2/sdk/liquidity/mainnet.json), that means if you know pool address you can start trading right away without the need to wait for the Raydium pool cache to be updated.
 
 WARNING! `sapysol_raydium_amm` is currently in `alpha` version, so, bugs, lack of tests and descriptions are expected. Some things may not work, future versions may bring breaking changes.
 
